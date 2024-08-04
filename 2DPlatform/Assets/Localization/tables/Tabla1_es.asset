@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Tabla1_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 5022f902dd8a0594da5fb8def0fbc2fc, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1
+    m_Localized: Iniciar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2
+    m_Localized: Salir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4
+    m_Localized: ' Guardado 1'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5
+    m_Localized: Guardado 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6
+    m_Localized: Guardado 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7
+    m_Localized: 'Niveles:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8
+    m_Localized: Seleccionar Nivel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9
+    m_Localized: Tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10
+    m_Localized: "\xBFSeguro que quieres volver al menu?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11
+    m_Localized: Cancelar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12
+    m_Localized: Guardar y salir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13
+    m_Localized: Nivel completado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14
+    m_Localized: 'Presiona: "a" y "d" o las felchas derecha e izquierda para moverte'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15
+    m_Localized: 'Presiona: "espacio" para saltar'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16
+    m_Localized: 'Presiona: "shift" para usar el dash'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17
+    m_Localized: "\xA1Tambi\xE9n puedes hacer saltos en pared!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13501253562368
+    m_Localized: Opciones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14153346199552
+    m_Localized: Eliminar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16711976497152
+    m_Localized: Siguiente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35448087654400
+    m_Localized: 'Idiomas:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38584709820416
+    m_Localized: Ingles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38648324829184
+    m_Localized: "Espa\xF1ol"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42239966064640
+    m_Localized: Volver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49020066869248
+    m_Localized: Pantalla Completa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54298845917184
+    m_Localized: Volumen
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

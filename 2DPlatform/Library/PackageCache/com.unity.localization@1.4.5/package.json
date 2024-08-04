@@ -1,0 +1,72 @@
+{
+  "name": "com.unity.localization",
+  "displayName": "Localization",
+  "version": "1.4.5",
+  "unity": "2019.4",
+  "description": "Use the Localization package to easily configure localization settings for your application.\n\nAdd support for multiple languages and regional variants, including:\n\n• String localization: Set different strings to display based on locale. Use the Smart Strings feature to add logic to automatically replace specific strings, such as placeholders and plurals.\n• Asset localization: Use a different asset (such as a texture, model, or audio file) based on a locale.\n• Pseudo-localization: Test how your project will adapt to different localizations at an early stage, before adding your translations.\n• Import and export localization data to XLIFF, CSV and Google Sheets.\n\nAdd localization to your projects using the Localization package to help make your applications more accessible to a wider audience.",
+  "keywords": [
+    "localization",
+    "locale",
+    "language"
+  ],
+  "dependencies": {
+    "com.unity.addressables": "1.21.8",
+    "com.unity.nuget.newtonsoft-json": "3.0.2"
+  },
+  "relatedPackages": {
+    "com.unity.localization.tests": "1.4.5"
+  },
+  "_upm": {
+    "changelog": "### Fixed\n\n- Added handling of null `StringReference`/`AssetReference` reference to `LocalizedAssetBehaviour` and `LocalizedStringEvent`. ([LOC-945](https://issuetracker.unity3d.com/product/unity/issues/guid/LOC-942))\n- Fixed \"Objects are trying to be loaded during a domain backup\" error occurring on empty `TableReferences` during serialization. ([LOC-969](https://issuetracker.unity3d.com/product/unity/issues/guid/LOC-969))\n- Fixed `StringTableEntry.IsSmart` from not detecting if the entry was marked smart when its local `SmartFormatTag` metadata was missing but it was still registered in the `SmartFormatTag`. ([LOC-966](https://issuetracker.unity3d.com/product/unity/issues/guid/LOC-966))\n- Fixed an issue that would cause sprites/textures to flicker when the locale was changed. This was due to us unloading the previous locale's assets before the new ones were available. The `LocalizedAsset` now holds onto the asset handle until its new one has finished loading. ([LOC-976](https://issuetracker.unity3d.com/product/unity/issues/guid/LOC-976))\n- Fixed compilation errors when using Addressables 2.0.0.\n- Fixed Create Table window controls being hidden when a large number of locales were in the project,. (LOC-913)"
+  },
+  "upmCi": {
+    "footprint": "a14f948ac13b38e788b9cf0d3206a42635ebf0e1"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.localization@1.4/manual/index.html",
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/com.unity.localization.git",
+    "type": "git",
+    "revision": "a4890be557c52504bb1c494b8b425c4c4efb61ad"
+  },
+  "samples": [
+    {
+      "displayName": "Creating Locales",
+      "description": "This sample shows how to Locales including custom ones through script.",
+      "path": "Samples~/CreatingLocales"
+    },
+    {
+      "displayName": "Loading Strings",
+      "description": "This sample shows multiple ways to fetch localized strings from the Localization system.",
+      "path": "Samples~/LoadingStrings"
+    },
+    {
+      "displayName": "Language Selection Menu (IMGUI)",
+      "description": "This sample shows how to implement a simple language selection menu using IMGUI. The sample also includes an example of overriding the LocalesProvider in order to provide a custom list of available Locales.",
+      "path": "Samples~/LocaleMenuIMGUI"
+    },
+    {
+      "displayName": "Language Selection Menu (UGUI)",
+      "description": "This sample shows how to implement a simple language selection menu using a UGUI Dropdown.",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "path": "Samples~/LocaleMenuUGUI"
+    },
+    {
+      "displayName": "Smart Strings - Persistent Variables",
+      "description": "These samples show how Persistent Variables can be used in Smart Strings and how custom variables can be created.",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "path": "Samples~/PersistentVariables"
+    },
+    {
+      "displayName": "Preloading Screen",
+      "description": "Preloading is a way to ensure that chosen Localization data is immediately available and does not require additional loading. This sample shows how to implement a loading screen to wait for preloading to complete.",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "path": "Samples~/PreloadingScreen"
+    }
+  ]
+}

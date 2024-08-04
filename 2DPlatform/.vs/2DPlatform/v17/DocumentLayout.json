@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F1F7A29B-4F49-6D12-74F4-293F6F44BE34}|Assembly-CSharp.csproj|c:\\users\\emili\\desktop\\unity\\2dplatform\\assets\\script\\levelthings\\platformup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1F7A29B-4F49-6D12-74F4-293F6F44BE34}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\levelthings\\platformup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1F7A29B-4F49-6D12-74F4-293F6F44BE34}|Assembly-CSharp.csproj|c:\\users\\emili\\desktop\\unity\\2dplatform\\assets\\script\\pickups\\pickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1F7A29B-4F49-6D12-74F4-293F6F44BE34}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\pickups\\pickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1F7A29B-4F49-6D12-74F4-293F6F44BE34}|Assembly-CSharp.csproj|c:\\users\\emili\\desktop\\unity\\2dplatform\\assets\\script\\levelthings\\platformmov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1F7A29B-4F49-6D12-74F4-293F6F44BE34}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\levelthings\\platformmov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PickUp.cs",
+              "DocumentMoniker": "C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Assets\\Script\\PickUps\\PickUp.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PickUps\\PickUp.cs",
+              "ToolTip": "C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Assets\\Script\\PickUps\\PickUp.cs",
+              "RelativeToolTip": "Assets\\Script\\PickUps\\PickUp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T09:43:58.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlatformUp.cs",
+              "DocumentMoniker": "C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Assets\\Script\\LevelThings\\PlatformUp.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\LevelThings\\PlatformUp.cs",
+              "ToolTip": "C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Assets\\Script\\LevelThings\\PlatformUp.cs",
+              "RelativeToolTip": "Assets\\Script\\LevelThings\\PlatformUp.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwDQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T09:34:31.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlatformMov.cs",
+              "DocumentMoniker": "C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Assets\\Script\\LevelThings\\PlatformMov.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\LevelThings\\PlatformMov.cs",
+              "ToolTip": "C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Assets\\Script\\LevelThings\\PlatformMov.cs",
+              "RelativeToolTip": "Assets\\Script\\LevelThings\\PlatformMov.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T09:33:13.608Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Tabla1_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 5022f902dd8a0594da5fb8def0fbc2fc, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1
+    m_Localized: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2
+    m_Localized: Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4
+    m_Localized: ' Save 1'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5
+    m_Localized: Save 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6
+    m_Localized: Save 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7
+    m_Localized: 'Levels:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8
+    m_Localized: Select level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9
+    m_Localized: Tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10
+    m_Localized: Sure you want back to menu?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11
+    m_Localized: Cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12
+    m_Localized: Save and Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13
+    m_Localized: Level Complete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14
+    m_Localized: 'Press: "a" and "d" or right and left arrows to move'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15
+    m_Localized: 'Press: "space" to jump'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16
+    m_Localized: 'Press: "shift" to dash'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17
+    m_Localized: You can also do WallJumps!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13501253562368
+    m_Localized: Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14153346199552
+    m_Localized: Delete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16711976497152
+    m_Localized: Next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35448087654400
+    m_Localized: 'Lenguages:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38584709820416
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38648324829184
+    m_Localized: Spanish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42239966064640
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49020066869248
+    m_Localized: FullScreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54298845917184
+    m_Localized: Volume
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

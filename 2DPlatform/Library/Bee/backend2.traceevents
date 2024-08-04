@@ -1,0 +1,475 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1722420020507301, "dur":27409, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722420020534720, "dur":177, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722420020534972, "dur":511, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722420020537852, "dur":299, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Exe_Game/build5/Robocin_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1722420020538865, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Exe_Game/build5/Robocin_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":0, "ts":1722420020535507, "dur":5143, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722420020540652, "dur":4602906, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722420025143560, "dur":116, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722420025143676, "dur":293, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722420025144019, "dur":70, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722420025144210, "dur":4247, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1722420020535859, "dur":4894, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722420020540758, "dur":1869, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722420020542628, "dur":4876, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722420020547505, "dur":461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1722420020577813, "dur":437, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722420020589440, "dur":11023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1722420020600546, "dur":6850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722420020607445, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/Robocin_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722420020607514, "dur":7430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722420020615016, "dur":5497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722420020620595, "dur":3003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722420020623716, "dur":6915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722420020630693, "dur":8070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/Unity.Localization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722420020638887, "dur":13061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722420020652006, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/Robocin_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722420020652081, "dur":6215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722420020658398, "dur":2970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722420020661436, "dur":6322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722420020667840, "dur":10628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722420020678579, "dur":6613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722420020685338, "dur":6405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722420020691830, "dur":5659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722420020697677, "dur":10462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722420020790186, "dur":9354, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722420020708275, "dur":91279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722420020799660, "dur":429, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\com.unity.addressables\\aa\\Windows\\AddressablesLink\\link.xml" }}
+,{ "pid":12345, "tid":1, "ts":1722420020799638, "dur":453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/Robocin_Data/StreamingAssets/aa/AddressablesLink/link.xml" }}
+,{ "pid":12345, "tid":1, "ts":1722420020848079, "dur":4959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/StreamingAssets/aa/AddressablesLink/link.xml" }}
+,{ "pid":12345, "tid":1, "ts":1722420020853129, "dur":12869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1722420020866113, "dur":4277444, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1722420020535674, "dur":4991, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1722420020540669, "dur":6536, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1722420020550706, "dur":2036, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":2, "ts":1722420020552749, "dur":147, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1722420020553941, "dur":11991, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1722420020565934, "dur":122, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1722420020566365, "dur":3171, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722420020569539, "dur":4062, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722420020573604, "dur":7186, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722420020580793, "dur":171, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player1c5ca1ee-inputdata.json" }}
+,{ "pid":12345, "tid":2, "ts":1722420020581025, "dur":140136, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.BuildTools.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722420020721164, "dur":26630, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722420020747798, "dur":311201, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.CSharpSupport.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722420021059002, "dur":3781, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.DotNet.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722420021062787, "dur":1014, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.NativeProgramSupport.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722420021063803, "dur":830, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Stevedore.Program.exe" }}
+,{ "pid":12345, "tid":2, "ts":1722420021064635, "dur":532, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.TinyProfiler2.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722420021065168, "dur":81232, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.GNU.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722420021146403, "dur":48431, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.LLVM.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722420021194837, "dur":129161, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.VisualStudio.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722420021324000, "dur":102061, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.Xcode.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722420021426064, "dur":2335, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Tools.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722420021428401, "dur":567, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.TundraBackend.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722420021428969, "dur":131, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.VisualStudioSolution.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722420021429101, "dur":239, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\BeeBuildProgramCommon.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722420021429341, "dur":401, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\BeeBuildProgramCommon.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722420021429744, "dur":755, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\BeeLocalCacheTool.exe" }}
+,{ "pid":12345, "tid":2, "ts":1722420021430500, "dur":2015, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722420021432519, "dur":511, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\NiceIO.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722420021433032, "dur":171, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\PlayerBuildProgramLibrary.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722420021433205, "dur":212, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\PlayerBuildProgramLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722420021433419, "dur":303, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\ScriptCompilationBuildProgram.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722420021433724, "dur":529, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\ScriptCompilationBuildProgram.exe" }}
+,{ "pid":12345, "tid":2, "ts":1722420021434255, "dur":129810, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\SharpYaml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722420021564067, "dur":41053, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Api.Attributes.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722420021605126, "dur":99629, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722420021704757, "dur":78287, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722420021783048, "dur":44702, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722420021827753, "dur":64895, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722420021892651, "dur":166, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Api.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722420021892819, "dur":477, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Bee.BuildLogic.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722420021893298, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722420021893394, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Linker.Api.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722420021893486, "dur":106812, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Options.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722420020552747, "dur":1447554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1722420022000625, "dur":72, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1722420022001255, "dur":131827, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1722420022140681, "dur":122, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1722420022140680, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/Robocin_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1722420022140830, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1722420022142032, "dur":3001545, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722420020535815, "dur":4902, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722420020540723, "dur":1506, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722420020542229, "dur":4987, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722420020547240, "dur":108616, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1722420020547221, "dur":108637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1722420020661604, "dur":73, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722420020655874, "dur":5815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1722420020661780, "dur":59, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722420020661842, "dur":30874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722420020692806, "dur":5446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722420020698378, "dur":51620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722420020750084, "dur":15184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722420020765388, "dur":30686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722420020796497, "dur":7723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722420020804302, "dur":18447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1722420020822845, "dur":30081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1722420020853038, "dur":19145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1722420020872369, "dur":4271273, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722420020535728, "dur":4957, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722420020540691, "dur":1831, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722420020542523, "dur":4958, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722420020547493, "dur":14367, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1722420020547482, "dur":14382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1722420020575317, "dur":1004, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722420020562139, "dur":14197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1722420020576516, "dur":100, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722420020576843, "dur":12328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722420020589287, "dur":26314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722420020615743, "dur":5395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722420020621263, "dur":6798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/Unity.Addressables.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722420020659082, "dur":345, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722420020628202, "dur":31236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722420020659545, "dur":20093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722420020679717, "dur":71330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722420020751238, "dur":20822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722420020784232, "dur":12110, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722420020772146, "dur":24210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722420020796461, "dur":37084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722420020833632, "dur":3211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1722420020836915, "dur":25822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1722420020862830, "dur":9347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1722420020872248, "dur":4271425, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722420020535711, "dur":4963, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722420020540678, "dur":1868, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722420020542547, "dur":4865, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722420020547431, "dur":16545, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":5, "ts":1722420020547413, "dur":16565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1722420020563989, "dur":116, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722420020564110, "dur":1638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1722420020565822, "dur":28471, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1722420020565820, "dur":28476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1722420020594357, "dur":7294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1722420020601731, "dur":4980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722420020606818, "dur":5122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722420020612025, "dur":6099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722420020618552, "dur":7220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722420020625939, "dur":3978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722420020630093, "dur":11062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722420020641324, "dur":9320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722420020669321, "dur":251, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722420020650859, "dur":18731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722420020669721, "dur":81657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722420020772347, "dur":21304, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722420020751466, "dur":42282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722420020793895, "dur":3065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722420020797038, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/Robocin_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-english(en)_assets_all.bundle" }}
+,{ "pid":12345, "tid":5, "ts":1722420020851965, "dur":3971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-english(en)_assets_all.bundle" }}
+,{ "pid":12345, "tid":5, "ts":1722420020868488, "dur":65, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722420020856025, "dur":12600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1722420020868785, "dur":4274901, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722420020535769, "dur":4926, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722420020540699, "dur":1814, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722420020542513, "dur":4699, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722420020547236, "dur":295, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722420020552198, "dur":6971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1722420020559174, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1722420020560087, "dur":5268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1722420020565430, "dur":10195, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":6, "ts":1722420020565427, "dur":10200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1722420020575637, "dur":693, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722420020576336, "dur":1095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1722420020591652, "dur":170, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722420020577732, "dur":14103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722420020591932, "dur":14097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722420020606101, "dur":3138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722420020609323, "dur":6471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722420020621114, "dur":155, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722420020615872, "dur":5435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722420020621431, "dur":3225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722420020629598, "dur":112, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722420020624717, "dur":5544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722420020630399, "dur":25156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722420020655726, "dur":13901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722420020669735, "dur":13583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722420020683393, "dur":4567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722420020688055, "dur":6937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722420020695116, "dur":980, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722420020696100, "dur":5999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722420020702198, "dur":5459, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722420020707735, "dur":40791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722420020748726, "dur":300, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722420020748724, "dur":304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/Robocin_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722420020789165, "dur":7396, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722420020749050, "dur":47523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722420020796650, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/Robocin_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-spanish(es)_assets_all.bundle" }}
+,{ "pid":12345, "tid":6, "ts":1722420020883707, "dur":2222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-spanish(es)_assets_all.bundle" }}
+,{ "pid":12345, "tid":6, "ts":1722420020886010, "dur":4257589, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722420020535803, "dur":4904, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722420020540711, "dur":1792, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722420020542503, "dur":4718, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722420020547222, "dur":436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1722420020574150, "dur":2935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1722420020577537, "dur":11286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722420020589160, "dur":15679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722420020604919, "dur":2205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722420020607189, "dur":6363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722420020613652, "dur":9272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722420020623071, "dur":6234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722420020629370, "dur":1407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722420020637426, "dur":526, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722420020630917, "dur":7046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722420020638051, "dur":12064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722420020650206, "dur":6460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/Unity.ResourceManager.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722420020656776, "dur":4008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722420020660891, "dur":5297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722420020666288, "dur":6437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722420020672934, "dur":2179, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722420020790087, "dur":9432, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722420020675122, "dur":124416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722420020799631, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/Robocin_Data/StreamingAssets/aa/StandaloneWindows64/localization-assets-shared_assets_all.bundle" }}
+,{ "pid":12345, "tid":7, "ts":1722420020851950, "dur":3312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/StreamingAssets/aa/StandaloneWindows64/localization-assets-shared_assets_all.bundle" }}
+,{ "pid":12345, "tid":7, "ts":1722420020855452, "dur":10901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1722420020866426, "dur":4277275, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722420020535848, "dur":4887, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722420020540740, "dur":1962, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722420020542702, "dur":4512, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722420020547413, "dur":213, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020547821, "dur":164, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020547987, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020548104, "dur":544, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020548650, "dur":218, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ResourceManager.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020548870, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ScriptableBuildPipeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020548980, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InternalAPIEngineBridge.013.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020549084, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020549178, "dur":462, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020549642, "dur":88, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020549732, "dur":417, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020550151, "dur":171, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020550324, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020550437, "dur":456, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020550895, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020550997, "dur":795, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020551794, "dur":370, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020552166, "dur":346, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Localization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020552514, "dur":678, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020553194, "dur":728, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020553923, "dur":122, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020554046, "dur":326, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020554374, "dur":98, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020554474, "dur":120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020554595, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020554674, "dur":180, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020554856, "dur":838, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020555696, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020555801, "dur":124, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020555926, "dur":371, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020556302, "dur":186, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Addressables.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020556490, "dur":106, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Library\\PackageCache\\com.unity.collections@1.2.4\\Unity.Collections.LowLevel.ILSupport\\Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020556598, "dur":176, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Library\\PackageCache\\com.unity.visualscripting@1.9.1\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020556776, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Library\\PackageCache\\com.unity.burst@1.8.12\\Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020556871, "dur":841, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@3.2.1\\Runtime\\AOT\\Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020557714, "dur":276, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Assets\\DOTween\\DOTween.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020557992, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\System.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020558104, "dur":154, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020558260, "dur":313, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020558575, "dur":350, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020558927, "dur":204, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020559133, "dur":1177, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020560312, "dur":162, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020560476, "dur":2068, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020562548, "dur":547, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020563097, "dur":137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020563236, "dur":101, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020563338, "dur":166, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020563506, "dur":205, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020563713, "dur":231, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020563946, "dur":907, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020564855, "dur":383, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020565240, "dur":329, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020565571, "dur":161, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020565734, "dur":262, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020565998, "dur":3831, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020569832, "dur":6212, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020576047, "dur":10694, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420020586748, "dur":195, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"ProjectSettings\\BurstAotSettings_StandaloneWindows.json" }}
+,{ "pid":12345, "tid":8, "ts":1722420020587004, "dur":5340, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emili\\Desktop\\unity\\2DPlatform\\Library\\PackageCache\\com.unity.burst@1.8.12\\.Runtime\\bcl.exe" }}
+,{ "pid":12345, "tid":8, "ts":1722420020547222, "dur":45124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":8, "ts":1722420020593021, "dur":69, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722420020597170, "dur":4522435, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":8, "ts":1722420025123873, "dur":17646, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\AsyncPluginsFromLinker\\x86_64\\lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420025123870, "dur":17651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/Robocin_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722420025142218, "dur":1280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":9, "ts":1722420020535902, "dur":4919, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1722420020540827, "dur":1705, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1722420020542533, "dur":4918, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1722420020547451, "dur":499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1722420020591522, "dur":283, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1722420020584755, "dur":7070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1722420020592060, "dur":122, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1722420020624262, "dur":124, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1722420020592184, "dur":32213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1722420020624475, "dur":9116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1722420020633660, "dur":15318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":9, "ts":1722420020649052, "dur":13760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/Unity.ScriptableBuildPipeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1722420020662888, "dur":25818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1722420020688821, "dur":6349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1722420020706094, "dur":8792, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1722420020695273, "dur":19624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1722420020780296, "dur":15255, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1722420020714991, "dur":80574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1722420020795701, "dur":8257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1722420020804064, "dur":197335, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1722420020804061, "dur":197340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1722420021001423, "dur":10513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1722420021011980, "dur":4131587, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1722420020535935, "dur":4899, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1722420020540837, "dur":1722, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1722420020542559, "dur":4663, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1722420020547246, "dur":78172, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":10, "ts":1722420020547223, "dur":78196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1722420020625444, "dur":17221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1722420020642755, "dur":15965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1722420020658785, "dur":6043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1722420020669550, "dur":76, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1722420020664917, "dur":4723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1722420020684731, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1722420020669749, "dur":15056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1722420020684929, "dur":7730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1722420020692778, "dur":5434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1722420020698300, "dur":50215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1722420020773562, "dur":21443, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1722420020748657, "dur":46366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1722420020795147, "dur":7155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1722420020802383, "dur":199, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\com.unity.addressables\\aa\\Windows\\catalog.json" }}
+,{ "pid":12345, "tid":10, "ts":1722420020802382, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/Robocin_Data/StreamingAssets/aa/catalog.json" }}
+,{ "pid":12345, "tid":10, "ts":1722420020845662, "dur":6071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/StreamingAssets/aa/catalog.json" }}
+,{ "pid":12345, "tid":10, "ts":1722420020851811, "dur":11452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/level5" }}
+,{ "pid":12345, "tid":10, "ts":1722420020863329, "dur":9492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1722420020872883, "dur":4270749, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1722420020535983, "dur":4856, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1722420020540844, "dur":826, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1722420020541670, "dur":5548, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1722420020547244, "dur":94896, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1722420020547222, "dur":94920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1722420020647474, "dur":60, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1722420020642830, "dur":4722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1722420020647916, "dur":80272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/Unity.InternalAPIEngineBridge.013.dll" }}
+,{ "pid":12345, "tid":11, "ts":1722420020768252, "dur":106, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1722420020728334, "dur":40083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1722420020783560, "dur":12277, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1722420020768545, "dur":27306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1722420020796046, "dur":35318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1722420020831452, "dur":21114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1722420020852650, "dur":20566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/level4" }}
+,{ "pid":12345, "tid":11, "ts":1722420020873279, "dur":4270328, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1722420020536080, "dur":4774, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1722420020540854, "dur":6474, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1722420020547329, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1722420020663042, "dur":81, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1722420020649268, "dur":13875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1722420020663286, "dur":87, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1722420020663375, "dur":34332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1722420020697842, "dur":29956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1722420020767772, "dur":77, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1722420020727884, "dur":39986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1722420020767991, "dur":96, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1722420020793616, "dur":6021, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1722420020768093, "dur":31558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1722420020799841, "dur":334, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\com.unity.addressables\\aa\\Windows\\settings.json" }}
+,{ "pid":12345, "tid":12, "ts":1722420020799840, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/Robocin_Data/StreamingAssets/aa/settings.json" }}
+,{ "pid":12345, "tid":12, "ts":1722420020865036, "dur":2421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/StreamingAssets/aa/settings.json" }}
+,{ "pid":12345, "tid":12, "ts":1722420020867562, "dur":4276133, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1722420020536112, "dur":4753, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1722420020540865, "dur":6438, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1722420020547303, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1722420020559423, "dur":9231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1722420020568712, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1722420020569881, "dur":2609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1722420020572569, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/Robocin_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":13, "ts":1722420020573117, "dur":21503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":13, "ts":1722420020594730, "dur":13312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1722420020608146, "dur":7027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1722420020615307, "dur":6579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":13, "ts":1722420020627573, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1722420020621999, "dur":5709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":13, "ts":1722420020637401, "dur":128, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1722420020627820, "dur":9727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":13, "ts":1722420020637711, "dur":8264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":13, "ts":1722420020646056, "dur":52660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1722420020699153, "dur":52807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1722420020780897, "dur":14697, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1722420020752040, "dur":43568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1722420020795713, "dur":18475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1722420020850359, "dur":267, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1722420020814271, "dur":36498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1722420020850880, "dur":18602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/level6" }}
+,{ "pid":12345, "tid":13, "ts":1722420020869539, "dur":4274138, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1722420020536154, "dur":4719, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1722420020540873, "dur":6410, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1722420020547285, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1722420020559410, "dur":8225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1722420020567691, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1722420020567970, "dur":3966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1722420020571997, "dur":678, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":14, "ts":1722420020571996, "dur":680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/Robocin.exe" }}
+,{ "pid":12345, "tid":14, "ts":1722420020572698, "dur":1442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin.exe" }}
+,{ "pid":12345, "tid":14, "ts":1722420020574194, "dur":7636, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\mscorlib.dll" }}
+,{ "pid":12345, "tid":14, "ts":1722420020574192, "dur":7641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/Robocin_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":14, "ts":1722420020581863, "dur":26961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":14, "ts":1722420020609436, "dur":23286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":14, "ts":1722420020632891, "dur":6887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1722420020639908, "dur":21395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":14, "ts":1722420020661403, "dur":23972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1722420020685540, "dur":6218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1722420020691840, "dur":5942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1722420020697922, "dur":72465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1722420020788087, "dur":8303, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1722420020770500, "dur":25904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1722420020796514, "dur":7836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1722420020804473, "dur":9211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":14, "ts":1722420020813778, "dur":2416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":14, "ts":1722420020816273, "dur":2697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":14, "ts":1722420020819129, "dur":3594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":14, "ts":1722420020822812, "dur":12062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":14, "ts":1722420020835275, "dur":2672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":14, "ts":1722420020838490, "dur":1933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":14, "ts":1722420020840494, "dur":47065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/resources.assets" }}
+,{ "pid":12345, "tid":14, "ts":1722420020887623, "dur":4255962, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1722420020536186, "dur":4696, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1722420020540883, "dur":6336, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1722420020547222, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":15, "ts":1722420020558831, "dur":6748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":15, "ts":1722420020565635, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1722420020566486, "dur":2515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1722420020569060, "dur":123794, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":15, "ts":1722420020569058, "dur":123798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":15, "ts":1722420020696440, "dur":2695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":15, "ts":1722420020699352, "dur":33474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1722420020732966, "dur":17088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1722420020789488, "dur":8610, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1722420020754428, "dur":43682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1722420020798186, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/Robocin_Data/StreamingAssets/aa/StandaloneWindows64/localization-locales_assets_all.bundle" }}
+,{ "pid":12345, "tid":15, "ts":1722420020882438, "dur":2728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/StreamingAssets/aa/StandaloneWindows64/localization-locales_assets_all.bundle" }}
+,{ "pid":12345, "tid":15, "ts":1722420020885348, "dur":4258247, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1722420020536241, "dur":4646, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1722420020540888, "dur":6413, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1722420020547316, "dur":17703, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1722420020547302, "dur":17719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1722420020567303, "dur":2177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1722420020569543, "dur":124431, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":16, "ts":1722420020569541, "dur":124435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":16, "ts":1722420020704019, "dur":10581, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1722420020696775, "dur":17847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":16, "ts":1722420020714736, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1722420020714733, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe_Game/build5/Robocin_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1722420020714838, "dur":20406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1722420020735334, "dur":34973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1722420020787555, "dur":8812, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1722420020770426, "dur":25955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1722420020796474, "dur":8154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1722420020804702, "dur":10244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1722420020815018, "dur":3279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":16, "ts":1722420020818388, "dur":2217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1722420020820730, "dur":10643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":16, "ts":1722420020831455, "dur":2557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":16, "ts":1722420020834100, "dur":2485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1722420020836667, "dur":2697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":16, "ts":1722420020839444, "dur":24640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1722420020864169, "dur":4874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe_Game/build5/Robocin_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":16, "ts":1722420020869117, "dur":4274590, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722420025152294, "dur":2483, "ph":"X", "name": "ProfilerWriteOutput" }
+,
